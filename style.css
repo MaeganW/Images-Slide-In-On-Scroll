@@ -53,9 +53,14 @@ img {
 }
 
 .slide-left {
-    transform: translate(-30%);
+    transform: translate(-30%) scale(0.90);
 }
 
 .slide-right {
-    transform: translate(30%);
+    transform: translate(30%) scale(0.90);
+}
+
+.active {
+    transform: translate(0%) scale(1);
+    opacity: 1;
 }
